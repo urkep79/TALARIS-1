@@ -16,6 +16,7 @@ namespace TALARIS_1
 
             if (!IsPostBack)
             {
+                //test gita upala ti kita
                 PopuniGridViewKontrole();
                 
             }
