@@ -1,0 +1,237 @@
+﻿body 
+{
+ background-color: #5C87B2;
+font-size: .85em;
+font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+margin: 0;
+padding: 0;
+color: white;
+}
+
+.page 
+{
+width: 998px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+h1
+{
+    font-size: xx-large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #333333;
+}
+
+#Footer
+{
+    background-color: #5C87B2;
+    width: 998px;
+    height: 50px;
+    margin-top: 5px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 0 0 0;
+    color: #FFFFFF;
+}
+
+#GlavniPanel
+{
+    padding: 30px 30px 15px 30px;
+    color: Black;
+    background-color: #fff;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 0 0 0;
+    position: relative;
+    
+   
+}
+
+
+#GlavniPanel p
+{
+    color: #666666;
+}
+
+#GlavniPanel a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+h2
+{
+display: block;
+font-size: 1.5em;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+color: Black;
+    width: 168px;
+    text-align: left;
+}
+
+#header h1
+{
+     font-size:xx-large;
+     color: White;
+     text-shadow: 5px 5px 2px #111;
+}
+
+.stilMeni
+{
+    width: 100px;
+    text-align: center;
+    margin: 0px 2px 2px 0px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: normal;
+    background-color: #e8eef4;
+    color: #034af3;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+}
+
+.meni
+{
+    border-bottom: 1px #5C87B2 solid;
+    padding: 2;
+    position: relative;
+    margin: 0;
+    text-align: right;
+}
+
+a:link, a:visited
+{
+    color: #003399;
+    text-decoration: none;
+}
+
+
+/* ZA LINKOVE POGLEDAJ-------------------------------------------------*/
+
+
+ 
+
+
+/* GRID VIEW STIL -------------------------------- */
+
+.GridMain
+{
+border-right: gainsboro thin solid;
+border-top: gainsboro thin solid;
+border-left: gainsboro thin solid;
+border-bottom: gainsboro thin solid;
+width: 400;
+}
+.GridRow
+{
+    background-color: #FFFAFA;
+    text-align: left;
+    color: #666666;
+}
+.GridRow a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+.GridSelectedRow
+{
+background-color: #E6E6FA;
+}
+.GridHeader
+{
+background-color: #5C87B2;
+color:White;
+font-weight: bold;
+text-align: left;
+
+}
+
+.GridHeader a:hover
+{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.GridHeader a:link
+{
+    text-decoration: none;
+}
+
+ 
+
+/*----------------------------------------------------------- */
+
+.lbl
+{
+     margin-left: 10px;  
+    color: #999999;  
+    font-weight:bold;
+}
+.txtBox
+{
+    padding: 7px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+.txtBox:hover, txtBox:focus
+{
+    border-color: #C9C9C9;  
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+}
+
+.myButton
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05,  #5C87B2), color-stop(1, #378de5) );
+    background: -moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+    background-color: #5C87B2;  
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #5C87B2;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+

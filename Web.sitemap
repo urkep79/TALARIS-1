@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Root"  description="Root">
+        <siteMapNode url="~/Default.aspx" title="Glavna"  description="Talaris glavna strana"/>
+        <siteMapNode url="Magacioner/Magacin.aspx" title="Magacin"  description="Talaris magacin" />
+        <siteMapNode url="Prodavac/Zaposleni.aspx" title="Zaposleni"  description="Talaris zaposleni" />
+      <siteMapNode url="Prodavac/Musterije.aspx" title="Mušterije"  description="Talaris mušterije" />
+      <siteMapNode url="Prodavac/Zakljucnice.aspx" title="Zaključnice"  description="Talaris zaključnice" />
+      <siteMapNode url="Prodavac/Montaze.aspx" title="Montaže"  description="Talaris montaže" />
+    </siteMapNode>
+</siteMap>

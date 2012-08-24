@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TALARIS_1.Site1"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ 
+
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" EnableScriptGlobalization = "true" EnableScriptLocalization="true" runat="server">
+                    </asp:ScriptManager>
+        <div class="page"  >
+            <div id = "header">
+                <div id = "naslov">
+                    <h1>Talaris</h1>
+                </div>
+                <div id = "meniKontejner">
+                    <asp:SiteMapDataSource ID="TalarisSiteMap" runat="server" ShowStartingNode="false" />
+
+                    <asp:Menu ID="TalarisMeni" runat="server" DataSourceID ="TalarisSiteMap" 
+                        Orientation="Horizontal">
+                        
+                        
+                        <StaticHoverStyle BackColor="White" />
+                        
+                        
+                        <StaticMenuItemStyle CssClass="stilMeni"/>
+                       
+                    </asp:Menu>
+                </div>
+            </div>
+            <!-- Glavni panel -->
+            <div id = "GlavniPanel">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" ViewStateMode="Inherit">
+                   
+                </asp:ContentPlaceHolder>
+                
+            </div >
+            <div id = "Footer" class="style1">
+               <br /><b>Talaris inženjering</b></div>
+           
+        </div>
+       
+    </form>
+    
+</body>
+</html>
